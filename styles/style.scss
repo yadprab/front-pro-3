@@ -595,13 +595,15 @@ footer {
         max-width: 1440px;
         padding: 1em;
         z-index: 9000;
+        justify-content: space-around;
+
 
         ul{
           @include ul;
 
           a{
               @include links;
-              color: var(--DarkBlue);
+              color: var(--GrayishBlue);
               font-size: 0.9rem;
 
               &::after{
@@ -619,7 +621,7 @@ footer {
         .invite{
             display: inline-block;
           
-            padding: 0.5em 1.5em;
+            padding: 0.75em 1.5em;
             border-radius: 20px;
             font-family: var(--font);
             font-weight: 700;
